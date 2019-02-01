@@ -1,0 +1,60 @@
+@import '~bootstrap/scss/bootstrap.scss';
+
+@import '~bootstrap-css-only/css/bootstrap.min.css'; 
+@import '~font-awesome/css/font-awesome.min.css';
+@import '~mdbreact/dist/css/mdb.css';
+
+button.btn:active, button.btn:focus {
+	box-shadow: none;
+}
+
+main {
+	margin-top: 4rem;
+	min-height: 78vh;
+}
+
+/* body {
+	user-select:  none;
+} */
+
+@media (max-width: 576px) {
+	.sub-nav-menu .navbar .navbar-nav {
+	    flex-direction: row;
+	}
+}
+
+@media (min-width: 576px) {
+	.sub-nav-menu .navbar .navbar-nav {
+	    flex-direction: row;
+	}
+}
+
+.table-grid .table {
+	border:  1px solid blue;
+}
+
+.table-grid .table thead tr th {
+	padding-top: 0.3rem;
+	padding-bottom: 0.3rem;
+	font-weight: 600;
+}
+
+.table-grid .table tbody tr td {
+	padding-top: 0.2rem;
+	padding-bottom: 0.2rem;
+	    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    font-weight: 400;
+}
+
+/*.table-1 {
+	height: 250px;
+	overflow-y: auto;
+}*/
+
+.btn:active, .btn:focus {
+	outline: 0;
+	box-shadow: none !important;
+}
